@@ -67,6 +67,7 @@ STATIC_URL = '/static/'
 
 # Additional locations of static files
 SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 STATICFILES_DIRS = (
     os.path.join(SITE_ROOT, 'static'),
