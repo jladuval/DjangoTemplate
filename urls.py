@@ -23,4 +23,6 @@ urlpatterns = patterns('',
 
     url(r'^accounts/', include('Accounts.urls')),
     url(r'^', include('Accounts.urls')),
+
+    url(r'^', 'Home.views.Index')
 )
